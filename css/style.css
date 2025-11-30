@@ -90,17 +90,22 @@ footer {
   font-weight: 500;
 }
 
-
 .contact-line {
-  display: flex;
-  gap: 15px; /* space between items */
-  flex-wrap: wrap; /* allows wrapping on small screens */
-  margin-bottom: 10px;
+  font-size: 1.05rem;
+  margin: 10px 0 15px;
 }
 
-.contact-line span a {
+.contact-line a {
   text-decoration: none;
+  color: #1a73e8; /* Google Scholar–style blue */
+  font-weight: 500;
 }
+
+.contact-line span {
+  margin: 0 8px;
+  color: #000;
+}
+
 .typewriter {
   display: inline-block;
   white-space: nowrap;                 /* keep text on one line */
