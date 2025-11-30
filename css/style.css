@@ -89,6 +89,18 @@ footer {
   margin-top: 1rem;
   font-weight: 500;
 }
+
+
+.contact-line {
+  display: flex;
+  gap: 15px; /* space between items */
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  margin-bottom: 10px;
+}
+
+.contact-line span a {
+  text-decoration: none;
+}
 .typewriter {
   display: inline-block;
   white-space: nowrap;                 /* keep text on one line */
@@ -110,3 +122,5 @@ footer {
   from, to { border-color: transparent; }
   50%      { border-color: black; }
 }
+
+
